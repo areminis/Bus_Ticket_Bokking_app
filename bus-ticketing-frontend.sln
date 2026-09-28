@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Applications", "Sample Applications", "{E1C57384-CB41-8B29-F250-4ABD4D9BFA04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExpenseIt", "ExpenseIt", "{5AAE892D-C262-EA70-7171-3D54FD16804E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditBoxControlLibrary", "src\Sample Applications\ExpenseIt\EditBoxControlLibrary\EditBoxControlLibrary.csproj", "{61620857-F8AA-26D2-B96E-98987C5A1626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseItDemo", "src\Sample Applications\ExpenseIt\ExpenseItDemo\ExpenseItDemo.csproj", "{8475C279-F84D-1EEB-0802-1A2592AB5D0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61620857-F8AA-26D2-B96E-98987C5A1626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61620857-F8AA-26D2-B96E-98987C5A1626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61620857-F8AA-26D2-B96E-98987C5A1626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61620857-F8AA-26D2-B96E-98987C5A1626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8475C279-F84D-1EEB-0802-1A2592AB5D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8475C279-F84D-1EEB-0802-1A2592AB5D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8475C279-F84D-1EEB-0802-1A2592AB5D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8475C279-F84D-1EEB-0802-1A2592AB5D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1C57384-CB41-8B29-F250-4ABD4D9BFA04} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{5AAE892D-C262-EA70-7171-3D54FD16804E} = {E1C57384-CB41-8B29-F250-4ABD4D9BFA04}
+		{61620857-F8AA-26D2-B96E-98987C5A1626} = {5AAE892D-C262-EA70-7171-3D54FD16804E}
+		{8475C279-F84D-1EEB-0802-1A2592AB5D0B} = {5AAE892D-C262-EA70-7171-3D54FD16804E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {013D9359-1EDD-4A85-BF38-A7A17A1F8B88}
+	EndGlobalSection
+EndGlobal
